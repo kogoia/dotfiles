@@ -49,3 +49,5 @@ map <C-j> <C-w><Down>
 map <C-k> <C-w><Up>
 map <C-l> <C-w><Right>
 
+set visualbell
+set t_vb=
