@@ -1,6 +1,7 @@
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-Plug 'https://github.com/OmniSharp/omnisharp-vim.git'
+"Plug 'https://github.com/OmniSharp/omnisharp-vim.git'
+Plug 'https://github.com/bling/vim-airline.git'
 call plug#end()
 
 set number
@@ -21,8 +22,8 @@ set t_vb=
 "Mapping to move lines
 
 nnoremap <S-j> :m .+1<CR>==
-inoremap <S-j> <Esc>:m .+1<CR>==gi
-nnoremap <S-k> :m .-2<CR>==
-inoremap <S-k> <Esc>:m .-2<CR>==gi
 vnoremap <S-j> :m '>+1<CR>gv=gv
+"inoremap <S-j> <Esc>:m .+1<CR>==gi
+nnoremap <S-k> :m .-2<CR>==
 vnoremap <S-k> :m '<-2<CR>gv=gv
+"inoremap <S-k> <Esc>:m .-2<CR>==gi
