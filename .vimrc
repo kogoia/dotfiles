@@ -29,3 +29,6 @@ vnoremap <S-j> :m '>+1<CR>gv=gv
 nnoremap <S-k> :m .-2<CR>==
 vnoremap <S-k> :m '<-2<CR>gv=gv
 "inoremap <S-k> <Esc>:m .-2<CR>==gi
+
+"https://github.com/scrooloose/nerdtree/issues/108#issuecomment-288770648:
+set encoding=utf-8
