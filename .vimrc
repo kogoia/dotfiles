@@ -2,6 +2,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 "Plug 'https://github.com/OmniSharp/omnisharp-vim.git'
 Plug 'https://github.com/bling/vim-airline.git'
+Plug 'tpope/vim-surround'
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 set number
