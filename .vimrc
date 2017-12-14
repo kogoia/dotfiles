@@ -4,12 +4,16 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'https://github.com/bling/vim-airline.git'
 Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
+Plug 'sickill/vim-monokai'
 call plug#end()
 
 set number
 set hlsearch
 set incsearch
 syntax on 
+set background=dark
+set termguicolors
+colorscheme monokai
 
 "mappings
 map <C-n> :NERDTreeToggle<CR>
