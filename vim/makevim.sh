@@ -1,1 +1,1 @@
-cat plugins.vim mappings.vim > init.vim
+cat plugins.vim sets.vim mappings.vim > init.vim
