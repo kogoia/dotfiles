@@ -1,6 +1,6 @@
 # Vim Cheat Sheet
 
-NERDTree
+NERDTree:
 - `gt` next tab
 - `gT` previous tab
 
