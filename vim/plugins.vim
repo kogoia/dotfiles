@@ -6,7 +6,7 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
-"Plug 'sickill/vim-monokai'
+Plug 'sickill/vim-monokai'
 Plug 'eagletmt/neco-ghc'
 "Plug 'maralla/completor.vim'
 "Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
